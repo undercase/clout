@@ -2365,7 +2365,7 @@
 			width: 13em;
 		}
 
-			.image.phone img {
+			.image.phone .twitter-timeline {
 				border-radius: 0;
 				display: block;
 				position: relative;
@@ -2379,6 +2379,8 @@
 
 			.image.phone .inner {
 				position: relative;
+                                height: 400px;
+                                overflow: hidden;
 			}
 
 				.image.phone .inner:before, .image.phone .inner:after {
@@ -3627,7 +3629,7 @@
 /* Header */
 
 	#header {
-		background-color: #4696e5;
+		background-color: #DF514C;
 		color: #d0e4f8;
 		padding: 4.5em 0 2.5em 0 ;
 		-moz-align-items: center;
@@ -4149,3 +4151,82 @@
 		}
 
 	}
+
+
+
+
+        .normal {
+          font-weight: normal;
+          opacity: 0.8;
+        }
+
+
+
+        #header h1, #header h3, #header p {
+          margin-bottom: 0.5rem;
+        }
+
+        #header p {
+          margin-bottom: 1rem;
+        }
+
+
+
+        .purchasing {
+          width: 100%;
+          max-width: 900px;
+          margin: auto;
+          margin-bottom: 2rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: row;
+        }
+
+        .major h2 {
+          font-size: 3em;
+          margin-bottom: 0.5rem;
+        }
+
+        .major h3 {
+          margin-bottom: 1rem;
+        }
+
+        .major h4 {
+          font-weight: 900;
+        }
+
+        .purchasing .col {
+          flex: 1;
+        }
+        
+        .purchasing .col h3 {
+          font-size: 1.5em;
+        }
+
+        .purchasing .eth {
+          font-size: 2em;
+          margin-right: 10px;
+        }
+
+        .roadmap {
+          width: 100%;
+          max-width: 700px;
+          margin: auto;
+          text-align: left;
+        }
+
+        .roadmap .event h3 {
+          text-align: left;
+          font-size: 1.25em !important;
+        }
+
+        .roadmap .event {
+          transition: 0.2s ease-in-out;
+          opacity: 0.7;
+          cursor: pointer;
+        }
+        
+        .roadmap .event:hover {
+          opacity: 1;
+        }
