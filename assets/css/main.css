@@ -4209,24 +4209,47 @@
           margin-right: 10px;
         }
 
+        #three {
+          background: #DF534E;
+        }
+
+        #three >  .major > h2, #three > .major > p {
+          color: #fff;
+        }
+
         .roadmap {
+          background: #fff;
+          border-radius: 5px;
           width: 100%;
-          max-width: 700px;
+          max-width: 950px;
           margin: auto;
-          text-align: left;
+          text-align: center;
         }
 
         .roadmap .event h3 {
-          text-align: left;
+          text-align: center;
+          color: #545454;
           font-size: 1.25em !important;
         }
 
         .roadmap .event {
+          padding-top: 30px;
+          padding-bottom: 30px;
+          padding-left: 40px;
+          padding-right: 40px;
           transition: 0.2s ease-in-out;
-          opacity: 0.7;
-          cursor: pointer;
+          border-bottom: 1px solid #EEEEEE;
+        }
+
+        .roadmap .event h3 {
+          margin-bottom: 1rem;
+          padding-bottom: 0;
+        }
+
+        .roadmap .event p {
+          margin-bottom: 0;
+          padding-bottom: 0;
         }
         
         .roadmap .event:hover {
-          opacity: 1;
         }
