@@ -4244,6 +4244,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#160a47', end
           text-align: center;
         }
 
+        .whitepaper {
+          opacity: 0.8;
+          margin-top: 20px !important;
+          padding: 60px;
+          display: block;
+          background: #fff;
+          border-radius:  5px;
+          width: 100%;
+          max-width: 950px;
+          margin: auto;
+          text-align: center;
+          transition: 0.2s ease-in-out;
+        }
+
+        .whitepaper:hover {
+          opacity: 1;
+        }
+
+        .whitepaper h1 {
+          color: #000 !important;
+          opacity: 0.7;
+          margin: 0;
+          padding: 0;
+          font-size: 1.5em;
+        }
+
         .roadmap .event h3 {
           text-align: center;
           color: #545454;
@@ -4257,6 +4283,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#160a47', end
           padding-right: 40px;
           transition: 0.2s ease-in-out;
           border-bottom: 1px solid #EEEEEE;
+        }
+
+        .roadmap .event:last-of-type {
+          border-radius: 5px;
         }
 
         .roadmap .event h3 {
