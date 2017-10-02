@@ -4312,3 +4312,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#160a47', end
           color: #000;
           opacity: 0.7;
         }
+
+        .icons {
+          margin-top: 30px;
+          margin-bottom: 0;
+
+        }
