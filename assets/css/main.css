@@ -4380,4 +4380,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#160a47', end
 						 padding-left: 10px;
 						 padding-right: 10px;
 					 }
+
+					 #two, #three {
+						 padding-bottom: 1rem;
+					 }
 				 }
