@@ -4382,6 +4382,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#160a47', end
 					 }
 
 					 #two, #three {
-						 padding-bottom: 1rem;
+						 padding-bottom: 2rem !important;
 					 }
 				 }
