@@ -4356,6 +4356,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#160a47', end
  					margin-bottom: 0;
          }
 
+				 .image.phone {
+					 max-width: 300px !important;
+				 }
+
 				 @media screen and (max-width: 736px) {
 					 .image.phone {
 						 width: 100%;
